@@ -23,3 +23,11 @@ code {
 .bg-button{
   background: linear-gradient(90deg, rgba(83, 0, 255, 1) 0%, rgba(231, 172, 204, 1) 100%);
 }
+.swiper-button-prev::after{
+  font-size: 1rem !important;
+  margin-right: 2rem;
+}
+.swiper-button-next::after{
+  font-size: 1rem !important;
+ margin-left: 2rem;
+}

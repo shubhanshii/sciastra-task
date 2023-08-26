@@ -60,8 +60,8 @@ University: 'IISER Pune',
 },
 ]
   return (
-    <div className='lg:px-20'>
-      <h1 className='text-center py-20 text-4xl font-medium bg-text'>
+    <div className='lg:px-20 px-5'>
+      <h1 className='text-center py-20 text-3xl font-bold xl:text-4xl bg-text'>
         Meet your Mentors
       </h1>
       <Swiper
