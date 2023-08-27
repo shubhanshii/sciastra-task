@@ -88,7 +88,7 @@ University: 'IISER Pune',
         { users.map((item)=>(
           <SwiperSlide><div>
         <div className='flex flex-col justify-center items-center py-4'>
-        <img src={contact} className='border-black border-2 rounded-full my-4'></img>
+        <img src={contact} className='border-black border-2 rounded-full my-4 xl:w-9'></img>
         <h2 className='text-center text-[#234EB0]'>{item.Name}<br></br>{item.University}</h2>
         </div>
         </div>

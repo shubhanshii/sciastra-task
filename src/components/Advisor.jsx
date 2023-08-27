@@ -54,7 +54,7 @@ button: 'Message him now'
           mentors.map((item)=>(
             <SwiperSlide>
              <div className='flex flex-col justify-center items-center text-[#234EB0]'>
-           <img src={mentor} alt='' className='pb-2'/>
+           <img src={mentor} alt='' className='pb-2 xl:w-9'/>
            <p>{item.Name}</p>
            <p>{item.Title}</p>
            <p className='pb-3'>{item.desc}</p>
